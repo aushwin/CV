@@ -5,13 +5,33 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0 auto 0 auto;
   font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
 }
 
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+.main_heading_title {
+  font-weight: normal;
 }
 
 .top-container {
@@ -35,4 +55,83 @@ h3 {
 .image-container {
   border-radius: 50%;
   height: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills img {
+  height: 200px;
+  border-radius: 50%;
+}
+img.webdev-img {
+  float: left;
+  margin-right: 10px;
+}
+
+img.androiddev-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  line-height: 3;
+  padding-top: 40px;
+}
+
+.bottom-container a {
+  font-size: 1.2rem;
+  padding: 50px 30px 30px 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 10px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background-color: #11999e;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 10px 13px 10px 13px;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.contact-me {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-me h3 {
+  font-weight: bold;
+}
+
+.contact-me p {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.contact-me_lorem {
+  padding-bottom: 20px;
+}
+
+.pro_deco {
+  text-decoration: underline;
 }
